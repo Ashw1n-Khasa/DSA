@@ -23,11 +23,9 @@ void enqueue(int data){
             
             front=rear=0;
         }
-        else{
-            rear++;
-        }
+        
     }
-    queue[rear]=data;
+    queue[rear++]=data;
     printf("%d is queued \n",data);
     
 }
